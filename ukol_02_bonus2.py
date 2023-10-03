@@ -2154,7 +2154,7 @@ odpoved = ""
 for stat in staty:      
     if stat["region"] == dotaz:
         odpoved += stat['name'] + "; "
-if odpoved != "":
+if odpoved:
     print(f"Ve zvoleném regionu se nachází následující státy: {odpoved}")
 else:
     print("Neznámý region")
