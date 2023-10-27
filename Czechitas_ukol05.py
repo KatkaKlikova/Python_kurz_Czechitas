@@ -13,18 +13,15 @@ teploty = [
 
 # Vytvoř seznam průměrných teplot pro každý den.
 prumer = [round(sum(den)/len(den), 2) for den in teploty]
-print(prumer)
+
 #Vytvoř seznam ranních teplot.
 rano = [den[0] for den in teploty]
-print(rano)
 
 #Vytvoř seznam nočních teplot.
 noc = [den[3] for den in teploty]
-print(noc)
 
 #Vytvoř seznam dvouprvkových seznamů obsahujících pouze polední a noční teplotu.
 poledne_noc = [[den[1], den[3]] for den in teploty]
-print(poledne_noc)
 
 teploty_bonus = [
     ["pondělí", 2.1, 5.2, 6.1, -0.1],
