@@ -32,7 +32,7 @@ elif prani == "Peugeot":
     print(Peugeot.get_info())
     print(Peugeot.pujc_auto())
 
-'''print("Jakou značku si přejete půjčit nyní? Peugeot nebo Škoda?")  
+print("Jakou značku si přejete půjčit nyní? Peugeot nebo Škoda?")  
 prani = input()
 
 if prani == "Škoda":
@@ -40,4 +40,4 @@ if prani == "Škoda":
     print(Skoda.pujc_auto())
 elif prani == "Peugeot":
     print(Peugeot.get_info())
-    print(Peugeot.pujc_auto())'''
+    print(Peugeot.pujc_auto())
